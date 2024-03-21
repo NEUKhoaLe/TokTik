@@ -1,4 +1,12 @@
 {
   "name": "toktik",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "services/*",
+    "shared/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
 }
